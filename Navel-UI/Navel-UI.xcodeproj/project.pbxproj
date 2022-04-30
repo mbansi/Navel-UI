@@ -1,0 +1,471 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5FE39F0B281D130E00346099 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FE39F0A281D130E00346099 /* AppDelegate.swift */; };
+		5FE39F0D281D130E00346099 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FE39F0C281D130E00346099 /* SceneDelegate.swift */; };
+		5FE39F0F281D130E00346099 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FE39F0E281D130E00346099 /* ViewController.swift */; };
+		5FE39F12281D130E00346099 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5FE39F10281D130E00346099 /* Main.storyboard */; };
+		5FE39F14281D131400346099 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5FE39F13281D131400346099 /* Assets.xcassets */; };
+		5FE39F17281D131400346099 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5FE39F15281D131400346099 /* LaunchScreen.storyboard */; };
+		5FE39F20281D13F700346099 /* Login.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5FE39F1F281D13F700346099 /* Login.storyboard */; };
+		5FE39F23281D14CD00346099 /* CustomFilledButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FE39F22281D14CD00346099 /* CustomFilledButton.swift */; };
+		5FE39F27281D306400346099 /* CustomTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FE39F26281D306400346099 /* CustomTextField.swift */; };
+		5FE39F3C281D412C00346099 /* Raleway-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5FE39F2A281D412B00346099 /* Raleway-BoldItalic.ttf */; };
+		5FE39F3D281D412C00346099 /* Raleway-MediumItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5FE39F2B281D412B00346099 /* Raleway-MediumItalic.ttf */; };
+		5FE39F3E281D412C00346099 /* Raleway-ThinItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5FE39F2C281D412B00346099 /* Raleway-ThinItalic.ttf */; };
+		5FE39F3F281D412C00346099 /* Raleway-ExtraLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5FE39F2D281D412B00346099 /* Raleway-ExtraLight.ttf */; };
+		5FE39F40281D412C00346099 /* Raleway-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5FE39F2E281D412B00346099 /* Raleway-Medium.ttf */; };
+		5FE39F41281D412C00346099 /* Raleway-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5FE39F2F281D412B00346099 /* Raleway-SemiBold.ttf */; };
+		5FE39F42281D412C00346099 /* Raleway-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5FE39F30281D412B00346099 /* Raleway-ExtraBold.ttf */; };
+		5FE39F43281D412C00346099 /* Raleway-ExtraBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5FE39F31281D412B00346099 /* Raleway-ExtraBoldItalic.ttf */; };
+		5FE39F44281D412C00346099 /* Raleway-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5FE39F32281D412B00346099 /* Raleway-Regular.ttf */; };
+		5FE39F45281D412C00346099 /* Raleway-ExtraLightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5FE39F33281D412B00346099 /* Raleway-ExtraLightItalic.ttf */; };
+		5FE39F46281D412C00346099 /* Raleway-SemiBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5FE39F34281D412B00346099 /* Raleway-SemiBoldItalic.ttf */; };
+		5FE39F47281D412C00346099 /* Raleway-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5FE39F35281D412B00346099 /* Raleway-Light.ttf */; };
+		5FE39F48281D412C00346099 /* Raleway-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5FE39F36281D412C00346099 /* Raleway-Black.ttf */; };
+		5FE39F49281D412C00346099 /* Raleway-BlackItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5FE39F37281D412C00346099 /* Raleway-BlackItalic.ttf */; };
+		5FE39F4A281D412C00346099 /* Raleway-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5FE39F38281D412C00346099 /* Raleway-LightItalic.ttf */; };
+		5FE39F4B281D412C00346099 /* Raleway-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5FE39F39281D412C00346099 /* Raleway-Thin.ttf */; };
+		5FE39F4C281D412C00346099 /* Raleway-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5FE39F3A281D412C00346099 /* Raleway-Italic.ttf */; };
+		5FE39F4D281D412C00346099 /* Raleway-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5FE39F3B281D412C00346099 /* Raleway-Bold.ttf */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		5FE39F07281D130E00346099 /* Navel-UI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Navel-UI.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5FE39F0A281D130E00346099 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		5FE39F0C281D130E00346099 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		5FE39F0E281D130E00346099 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		5FE39F11281D130E00346099 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5FE39F13281D131400346099 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5FE39F16281D131400346099 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5FE39F18281D131400346099 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5FE39F1F281D13F700346099 /* Login.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Login.storyboard; sourceTree = "<group>"; };
+		5FE39F22281D14CD00346099 /* CustomFilledButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomFilledButton.swift; sourceTree = "<group>"; };
+		5FE39F26281D306400346099 /* CustomTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTextField.swift; sourceTree = "<group>"; };
+		5FE39F2A281D412B00346099 /* Raleway-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Raleway-BoldItalic.ttf"; sourceTree = "<group>"; };
+		5FE39F2B281D412B00346099 /* Raleway-MediumItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Raleway-MediumItalic.ttf"; sourceTree = "<group>"; };
+		5FE39F2C281D412B00346099 /* Raleway-ThinItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Raleway-ThinItalic.ttf"; sourceTree = "<group>"; };
+		5FE39F2D281D412B00346099 /* Raleway-ExtraLight.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Raleway-ExtraLight.ttf"; sourceTree = "<group>"; };
+		5FE39F2E281D412B00346099 /* Raleway-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Raleway-Medium.ttf"; sourceTree = "<group>"; };
+		5FE39F2F281D412B00346099 /* Raleway-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Raleway-SemiBold.ttf"; sourceTree = "<group>"; };
+		5FE39F30281D412B00346099 /* Raleway-ExtraBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Raleway-ExtraBold.ttf"; sourceTree = "<group>"; };
+		5FE39F31281D412B00346099 /* Raleway-ExtraBoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Raleway-ExtraBoldItalic.ttf"; sourceTree = "<group>"; };
+		5FE39F32281D412B00346099 /* Raleway-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Raleway-Regular.ttf"; sourceTree = "<group>"; };
+		5FE39F33281D412B00346099 /* Raleway-ExtraLightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Raleway-ExtraLightItalic.ttf"; sourceTree = "<group>"; };
+		5FE39F34281D412B00346099 /* Raleway-SemiBoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Raleway-SemiBoldItalic.ttf"; sourceTree = "<group>"; };
+		5FE39F35281D412B00346099 /* Raleway-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Raleway-Light.ttf"; sourceTree = "<group>"; };
+		5FE39F36281D412C00346099 /* Raleway-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Raleway-Black.ttf"; sourceTree = "<group>"; };
+		5FE39F37281D412C00346099 /* Raleway-BlackItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Raleway-BlackItalic.ttf"; sourceTree = "<group>"; };
+		5FE39F38281D412C00346099 /* Raleway-LightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Raleway-LightItalic.ttf"; sourceTree = "<group>"; };
+		5FE39F39281D412C00346099 /* Raleway-Thin.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Raleway-Thin.ttf"; sourceTree = "<group>"; };
+		5FE39F3A281D412C00346099 /* Raleway-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Raleway-Italic.ttf"; sourceTree = "<group>"; };
+		5FE39F3B281D412C00346099 /* Raleway-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Raleway-Bold.ttf"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5FE39F04281D130E00346099 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5FE39EFE281D130E00346099 = {
+			isa = PBXGroup;
+			children = (
+				5FE39F09281D130E00346099 /* Navel-UI */,
+				5FE39F08281D130E00346099 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5FE39F08281D130E00346099 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5FE39F07281D130E00346099 /* Navel-UI.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5FE39F09281D130E00346099 /* Navel-UI */ = {
+			isa = PBXGroup;
+			children = (
+				5FE39F28281D410100346099 /* Fonts */,
+				5FE39F21281D141000346099 /* CustomClasses */,
+				5FE39F1E281D133300346099 /* Login */,
+				5FE39F0A281D130E00346099 /* AppDelegate.swift */,
+				5FE39F0C281D130E00346099 /* SceneDelegate.swift */,
+				5FE39F0E281D130E00346099 /* ViewController.swift */,
+				5FE39F10281D130E00346099 /* Main.storyboard */,
+				5FE39F13281D131400346099 /* Assets.xcassets */,
+				5FE39F15281D131400346099 /* LaunchScreen.storyboard */,
+				5FE39F18281D131400346099 /* Info.plist */,
+			);
+			path = "Navel-UI";
+			sourceTree = "<group>";
+		};
+		5FE39F1E281D133300346099 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				5FE39F1F281D13F700346099 /* Login.storyboard */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		5FE39F21281D141000346099 /* CustomClasses */ = {
+			isa = PBXGroup;
+			children = (
+				5FE39F22281D14CD00346099 /* CustomFilledButton.swift */,
+				5FE39F26281D306400346099 /* CustomTextField.swift */,
+			);
+			path = CustomClasses;
+			sourceTree = "<group>";
+		};
+		5FE39F28281D410100346099 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				5FE39F2A281D412B00346099 /* Raleway-BoldItalic.ttf */,
+				5FE39F2B281D412B00346099 /* Raleway-MediumItalic.ttf */,
+				5FE39F2C281D412B00346099 /* Raleway-ThinItalic.ttf */,
+				5FE39F2D281D412B00346099 /* Raleway-ExtraLight.ttf */,
+				5FE39F2E281D412B00346099 /* Raleway-Medium.ttf */,
+				5FE39F2F281D412B00346099 /* Raleway-SemiBold.ttf */,
+				5FE39F30281D412B00346099 /* Raleway-ExtraBold.ttf */,
+				5FE39F31281D412B00346099 /* Raleway-ExtraBoldItalic.ttf */,
+				5FE39F32281D412B00346099 /* Raleway-Regular.ttf */,
+				5FE39F33281D412B00346099 /* Raleway-ExtraLightItalic.ttf */,
+				5FE39F34281D412B00346099 /* Raleway-SemiBoldItalic.ttf */,
+				5FE39F35281D412B00346099 /* Raleway-Light.ttf */,
+				5FE39F36281D412C00346099 /* Raleway-Black.ttf */,
+				5FE39F37281D412C00346099 /* Raleway-BlackItalic.ttf */,
+				5FE39F38281D412C00346099 /* Raleway-LightItalic.ttf */,
+				5FE39F39281D412C00346099 /* Raleway-Thin.ttf */,
+				5FE39F3A281D412C00346099 /* Raleway-Italic.ttf */,
+				5FE39F3B281D412C00346099 /* Raleway-Bold.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5FE39F06281D130E00346099 /* Navel-UI */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5FE39F1B281D131400346099 /* Build configuration list for PBXNativeTarget "Navel-UI" */;
+			buildPhases = (
+				5FE39F03281D130E00346099 /* Sources */,
+				5FE39F04281D130E00346099 /* Frameworks */,
+				5FE39F05281D130E00346099 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Navel-UI";
+			productName = "Navel-UI";
+			productReference = 5FE39F07281D130E00346099 /* Navel-UI.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5FE39EFF281D130E00346099 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1310;
+				LastUpgradeCheck = 1310;
+				TargetAttributes = {
+					5FE39F06281D130E00346099 = {
+						CreatedOnToolsVersion = 13.1;
+					};
+				};
+			};
+			buildConfigurationList = 5FE39F02281D130E00346099 /* Build configuration list for PBXProject "Navel-UI" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5FE39EFE281D130E00346099;
+			productRefGroup = 5FE39F08281D130E00346099 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5FE39F06281D130E00346099 /* Navel-UI */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5FE39F05281D130E00346099 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5FE39F46281D412C00346099 /* Raleway-SemiBoldItalic.ttf in Resources */,
+				5FE39F4C281D412C00346099 /* Raleway-Italic.ttf in Resources */,
+				5FE39F3F281D412C00346099 /* Raleway-ExtraLight.ttf in Resources */,
+				5FE39F49281D412C00346099 /* Raleway-BlackItalic.ttf in Resources */,
+				5FE39F20281D13F700346099 /* Login.storyboard in Resources */,
+				5FE39F17281D131400346099 /* LaunchScreen.storyboard in Resources */,
+				5FE39F4B281D412C00346099 /* Raleway-Thin.ttf in Resources */,
+				5FE39F3C281D412C00346099 /* Raleway-BoldItalic.ttf in Resources */,
+				5FE39F40281D412C00346099 /* Raleway-Medium.ttf in Resources */,
+				5FE39F3D281D412C00346099 /* Raleway-MediumItalic.ttf in Resources */,
+				5FE39F47281D412C00346099 /* Raleway-Light.ttf in Resources */,
+				5FE39F3E281D412C00346099 /* Raleway-ThinItalic.ttf in Resources */,
+				5FE39F14281D131400346099 /* Assets.xcassets in Resources */,
+				5FE39F43281D412C00346099 /* Raleway-ExtraBoldItalic.ttf in Resources */,
+				5FE39F12281D130E00346099 /* Main.storyboard in Resources */,
+				5FE39F44281D412C00346099 /* Raleway-Regular.ttf in Resources */,
+				5FE39F4A281D412C00346099 /* Raleway-LightItalic.ttf in Resources */,
+				5FE39F48281D412C00346099 /* Raleway-Black.ttf in Resources */,
+				5FE39F41281D412C00346099 /* Raleway-SemiBold.ttf in Resources */,
+				5FE39F4D281D412C00346099 /* Raleway-Bold.ttf in Resources */,
+				5FE39F45281D412C00346099 /* Raleway-ExtraLightItalic.ttf in Resources */,
+				5FE39F42281D412C00346099 /* Raleway-ExtraBold.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5FE39F03281D130E00346099 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5FE39F0F281D130E00346099 /* ViewController.swift in Sources */,
+				5FE39F0B281D130E00346099 /* AppDelegate.swift in Sources */,
+				5FE39F23281D14CD00346099 /* CustomFilledButton.swift in Sources */,
+				5FE39F0D281D130E00346099 /* SceneDelegate.swift in Sources */,
+				5FE39F27281D306400346099 /* CustomTextField.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		5FE39F10281D130E00346099 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5FE39F11281D130E00346099 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5FE39F15281D131400346099 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5FE39F16281D131400346099 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5FE39F19281D131400346099 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		5FE39F1A281D131400346099 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5FE39F1C281D131400346099 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Navel-UI/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.simform.Navel-UI";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5FE39F1D281D131400346099 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Navel-UI/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.simform.Navel-UI";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5FE39F02281D130E00346099 /* Build configuration list for PBXProject "Navel-UI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5FE39F19281D131400346099 /* Debug */,
+				5FE39F1A281D131400346099 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5FE39F1B281D131400346099 /* Build configuration list for PBXNativeTarget "Navel-UI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5FE39F1C281D131400346099 /* Debug */,
+				5FE39F1D281D131400346099 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5FE39EFF281D130E00346099 /* Project object */;
+}
