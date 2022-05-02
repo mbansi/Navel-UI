@@ -15,7 +15,7 @@ class CustomFilledButton: UIButton {
         }
     }
     
-    @IBInspectable var verticalPadding: CGFloat = 23 {
+    @IBInspectable var verticalPadding: CGFloat = 23{
         didSet {
             self.configuration?.contentInsets.top = verticalPadding
             self.configuration?.contentInsets.bottom = verticalPadding
@@ -31,12 +31,10 @@ class CustomFilledButton: UIButton {
     
     @IBInspectable var buttonColor: UIColor = UIColor.systemOrange {
         didSet {
-           updateButton()
+            self.backgroundColor =  UIColor.systemOrange
+            self.titleLabel?.font = UIFont(name: "Raleway-ExtraBold", size: 12)
         }
     }
-   
-    func updateButton() {
-        self.backgroundColor = UIColor.systemOrange
-        self.titleLabel?.font = UIFont(name: "Raleway-SemiBold", size: 12)
-    }
+    
+  
 }
