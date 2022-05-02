@@ -7,13 +7,24 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5F2E52962829057A00DD55DD /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F2E52952829057A00DD55DD /* Constants.swift */; };
+		5F3D05B52822597C0049D525 /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F3D05B42822597C0049D525 /* RegisterViewController.swift */; };
+		5F3D05BB28229CF80049D525 /* R.generated.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F3D05BA28229CF70049D525 /* R.generated.swift */; };
+		5F3D05BD28229D730049D525 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5F3D05BC28229D730049D525 /* Localizable.strings */; };
+		5F63E890281FD98500FAD57C /* CustomLabelH1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F63E88F281FD98500FAD57C /* CustomLabelH1.swift */; };
+		5F63E893281FFA5E00FAD57C /* CustomButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F63E892281FFA5E00FAD57C /* CustomButton.swift */; };
+		5F63E8952820216B00FAD57C /* CustomGreyButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F63E8942820216B00FAD57C /* CustomGreyButton.swift */; };
+		5F63E897282024A600FAD57C /* CustomLabelH3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F63E896282024A600FAD57C /* CustomLabelH3.swift */; };
+		5FC9978F2820F2BE00131E7A /* CustomTextFieldRightView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FC9978E2820F2BE00131E7A /* CustomTextFieldRightView.swift */; };
+		5FC997912820FF2A00131E7A /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FC997902820FF2A00131E7A /* LoginViewController.swift */; };
+		5FC997932821370700131E7A /* CustomLabelH4.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FC997922821370700131E7A /* CustomLabelH4.swift */; };
 		5FE39F0B281D130E00346099 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FE39F0A281D130E00346099 /* AppDelegate.swift */; };
 		5FE39F0D281D130E00346099 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FE39F0C281D130E00346099 /* SceneDelegate.swift */; };
 		5FE39F0F281D130E00346099 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FE39F0E281D130E00346099 /* ViewController.swift */; };
 		5FE39F12281D130E00346099 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5FE39F10281D130E00346099 /* Main.storyboard */; };
 		5FE39F14281D131400346099 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5FE39F13281D131400346099 /* Assets.xcassets */; };
 		5FE39F17281D131400346099 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5FE39F15281D131400346099 /* LaunchScreen.storyboard */; };
-		5FE39F20281D13F700346099 /* Login.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5FE39F1F281D13F700346099 /* Login.storyboard */; };
+		5FE39F20281D13F700346099 /* Authentication.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5FE39F1F281D13F700346099 /* Authentication.storyboard */; };
 		5FE39F23281D14CD00346099 /* CustomFilledButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FE39F22281D14CD00346099 /* CustomFilledButton.swift */; };
 		5FE39F27281D306400346099 /* CustomTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FE39F26281D306400346099 /* CustomTextField.swift */; };
 		5FE39F3C281D412C00346099 /* Raleway-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5FE39F2A281D412B00346099 /* Raleway-BoldItalic.ttf */; };
@@ -34,9 +45,23 @@
 		5FE39F4B281D412C00346099 /* Raleway-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5FE39F39281D412C00346099 /* Raleway-Thin.ttf */; };
 		5FE39F4C281D412C00346099 /* Raleway-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5FE39F3A281D412C00346099 /* Raleway-Italic.ttf */; };
 		5FE39F4D281D412C00346099 /* Raleway-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5FE39F3B281D412C00346099 /* Raleway-Bold.ttf */; };
+		D086A42563CB224CC8791C07 /* Pods_Navel_UI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6B572B2B629EEB1E50FE9F30 /* Pods_Navel_UI.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2EA290E87F800AF6BCEC2EFC /* Pods-Navel-UI.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Navel-UI.release.xcconfig"; path = "Target Support Files/Pods-Navel-UI/Pods-Navel-UI.release.xcconfig"; sourceTree = "<group>"; };
+		5F2E52942828E3F500DD55DD /* DelaGothicOne-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "DelaGothicOne-Regular.ttf"; path = "../../../../../../Downloads/DelaGothicOne-Regular.ttf"; sourceTree = "<group>"; };
+		5F2E52952829057A00DD55DD /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		5F3D05B42822597C0049D525 /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
+		5F3D05BA28229CF70049D525 /* R.generated.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = R.generated.swift; sourceTree = "<group>"; };
+		5F3D05BC28229D730049D525 /* Localizable.strings */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; path = Localizable.strings; sourceTree = "<group>"; };
+		5F63E88F281FD98500FAD57C /* CustomLabelH1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomLabelH1.swift; sourceTree = "<group>"; };
+		5F63E892281FFA5E00FAD57C /* CustomButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomButton.swift; sourceTree = "<group>"; };
+		5F63E8942820216B00FAD57C /* CustomGreyButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomGreyButton.swift; sourceTree = "<group>"; };
+		5F63E896282024A600FAD57C /* CustomLabelH3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomLabelH3.swift; sourceTree = "<group>"; };
+		5FC9978E2820F2BE00131E7A /* CustomTextFieldRightView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTextFieldRightView.swift; sourceTree = "<group>"; };
+		5FC997902820FF2A00131E7A /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		5FC997922821370700131E7A /* CustomLabelH4.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomLabelH4.swift; sourceTree = "<group>"; };
 		5FE39F07281D130E00346099 /* Navel-UI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Navel-UI.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5FE39F0A281D130E00346099 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5FE39F0C281D130E00346099 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -45,7 +70,7 @@
 		5FE39F13281D131400346099 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5FE39F16281D131400346099 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5FE39F18281D131400346099 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		5FE39F1F281D13F700346099 /* Login.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Login.storyboard; sourceTree = "<group>"; };
+		5FE39F1F281D13F700346099 /* Authentication.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Authentication.storyboard; sourceTree = "<group>"; };
 		5FE39F22281D14CD00346099 /* CustomFilledButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomFilledButton.swift; sourceTree = "<group>"; };
 		5FE39F26281D306400346099 /* CustomTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTextField.swift; sourceTree = "<group>"; };
 		5FE39F2A281D412B00346099 /* Raleway-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Raleway-BoldItalic.ttf"; sourceTree = "<group>"; };
@@ -66,6 +91,8 @@
 		5FE39F39281D412C00346099 /* Raleway-Thin.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Raleway-Thin.ttf"; sourceTree = "<group>"; };
 		5FE39F3A281D412C00346099 /* Raleway-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Raleway-Italic.ttf"; sourceTree = "<group>"; };
 		5FE39F3B281D412C00346099 /* Raleway-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Raleway-Bold.ttf"; sourceTree = "<group>"; };
+		6B572B2B629EEB1E50FE9F30 /* Pods_Navel_UI.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Navel_UI.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C57894CC45F061B44C7FE9DF /* Pods-Navel-UI.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Navel-UI.debug.xcconfig"; path = "Target Support Files/Pods-Navel-UI/Pods-Navel-UI.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,17 +100,31 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D086A42563CB224CC8791C07 /* Pods_Navel_UI.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2A8BB2BCAC1C3A75DC18C7EB /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C57894CC45F061B44C7FE9DF /* Pods-Navel-UI.debug.xcconfig */,
+				2EA290E87F800AF6BCEC2EFC /* Pods-Navel-UI.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		5FE39EFE281D130E00346099 = {
 			isa = PBXGroup;
 			children = (
+				5F3D05BC28229D730049D525 /* Localizable.strings */,
+				5F3D05BA28229CF70049D525 /* R.generated.swift */,
 				5FE39F09281D130E00346099 /* Navel-UI */,
 				5FE39F08281D130E00346099 /* Products */,
+				2A8BB2BCAC1C3A75DC18C7EB /* Pods */,
+				B947F73B901E07BCCED810F1 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -108,6 +149,7 @@
 				5FE39F13281D131400346099 /* Assets.xcassets */,
 				5FE39F15281D131400346099 /* LaunchScreen.storyboard */,
 				5FE39F18281D131400346099 /* Info.plist */,
+				5F2E52952829057A00DD55DD /* Constants.swift */,
 			);
 			path = "Navel-UI";
 			sourceTree = "<group>";
@@ -115,7 +157,9 @@
 		5FE39F1E281D133300346099 /* Login */ = {
 			isa = PBXGroup;
 			children = (
-				5FE39F1F281D13F700346099 /* Login.storyboard */,
+				5FE39F1F281D13F700346099 /* Authentication.storyboard */,
+				5FC997902820FF2A00131E7A /* LoginViewController.swift */,
+				5F3D05B42822597C0049D525 /* RegisterViewController.swift */,
 			);
 			path = Login;
 			sourceTree = "<group>";
@@ -123,8 +167,14 @@
 		5FE39F21281D141000346099 /* CustomClasses */ = {
 			isa = PBXGroup;
 			children = (
-				5FE39F22281D14CD00346099 /* CustomFilledButton.swift */,
 				5FE39F26281D306400346099 /* CustomTextField.swift */,
+				5FE39F22281D14CD00346099 /* CustomFilledButton.swift */,
+				5F63E88F281FD98500FAD57C /* CustomLabelH1.swift */,
+				5F63E892281FFA5E00FAD57C /* CustomButton.swift */,
+				5F63E8942820216B00FAD57C /* CustomGreyButton.swift */,
+				5F63E896282024A600FAD57C /* CustomLabelH3.swift */,
+				5FC9978E2820F2BE00131E7A /* CustomTextFieldRightView.swift */,
+				5FC997922821370700131E7A /* CustomLabelH4.swift */,
 			);
 			path = CustomClasses;
 			sourceTree = "<group>";
@@ -132,6 +182,7 @@
 		5FE39F28281D410100346099 /* Fonts */ = {
 			isa = PBXGroup;
 			children = (
+				5F2E52942828E3F500DD55DD /* DelaGothicOne-Regular.ttf */,
 				5FE39F2A281D412B00346099 /* Raleway-BoldItalic.ttf */,
 				5FE39F2B281D412B00346099 /* Raleway-MediumItalic.ttf */,
 				5FE39F2C281D412B00346099 /* Raleway-ThinItalic.ttf */,
@@ -154,6 +205,14 @@
 			path = Fonts;
 			sourceTree = "<group>";
 		};
+		B947F73B901E07BCCED810F1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6B572B2B629EEB1E50FE9F30 /* Pods_Navel_UI.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -161,9 +220,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5FE39F1B281D131400346099 /* Build configuration list for PBXNativeTarget "Navel-UI" */;
 			buildPhases = (
+				4EDE2B81FE8D15DE15D43442 /* [CP] Check Pods Manifest.lock */,
+				5F3D05B928229BE40049D525 /* ShellScript */,
 				5FE39F03281D130E00346099 /* Sources */,
 				5FE39F04281D130E00346099 /* Frameworks */,
 				5FE39F05281D130E00346099 /* Resources */,
+				834DDEE75FB4A05C2FDFEEF9 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -216,7 +278,7 @@
 				5FE39F4C281D412C00346099 /* Raleway-Italic.ttf in Resources */,
 				5FE39F3F281D412C00346099 /* Raleway-ExtraLight.ttf in Resources */,
 				5FE39F49281D412C00346099 /* Raleway-BlackItalic.ttf in Resources */,
-				5FE39F20281D13F700346099 /* Login.storyboard in Resources */,
+				5FE39F20281D13F700346099 /* Authentication.storyboard in Resources */,
 				5FE39F17281D131400346099 /* LaunchScreen.storyboard in Resources */,
 				5FE39F4B281D412C00346099 /* Raleway-Thin.ttf in Resources */,
 				5FE39F3C281D412C00346099 /* Raleway-BoldItalic.ttf in Resources */,
@@ -225,6 +287,7 @@
 				5FE39F47281D412C00346099 /* Raleway-Light.ttf in Resources */,
 				5FE39F3E281D412C00346099 /* Raleway-ThinItalic.ttf in Resources */,
 				5FE39F14281D131400346099 /* Assets.xcassets in Resources */,
+				5F3D05BD28229D730049D525 /* Localizable.strings in Resources */,
 				5FE39F43281D412C00346099 /* Raleway-ExtraBoldItalic.ttf in Resources */,
 				5FE39F12281D130E00346099 /* Main.storyboard in Resources */,
 				5FE39F44281D412C00346099 /* Raleway-Regular.ttf in Resources */,
@@ -239,16 +302,87 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		4EDE2B81FE8D15DE15D43442 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Navel-UI-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5F3D05B928229BE40049D525 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"$TEMP_DIR/rswift-lastrun",
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				$SRCROOT/R.generated.swift,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Type a script or drag a script file from your workspace to insert its path.\n\"$PODS_ROOT/R.swift/rswift\" generate \"$SRCROOT/R.generated.swift\"\n";
+		};
+		834DDEE75FB4A05C2FDFEEF9 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Navel-UI/Pods-Navel-UI-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Navel-UI/Pods-Navel-UI-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Navel-UI/Pods-Navel-UI-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		5FE39F03281D130E00346099 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5F63E890281FD98500FAD57C /* CustomLabelH1.swift in Sources */,
+				5F3D05BB28229CF80049D525 /* R.generated.swift in Sources */,
+				5F63E897282024A600FAD57C /* CustomLabelH3.swift in Sources */,
 				5FE39F0F281D130E00346099 /* ViewController.swift in Sources */,
 				5FE39F0B281D130E00346099 /* AppDelegate.swift in Sources */,
+				5F2E52962829057A00DD55DD /* Constants.swift in Sources */,
 				5FE39F23281D14CD00346099 /* CustomFilledButton.swift in Sources */,
+				5FC997932821370700131E7A /* CustomLabelH4.swift in Sources */,
+				5F63E893281FFA5E00FAD57C /* CustomButton.swift in Sources */,
+				5FC9978F2820F2BE00131E7A /* CustomTextFieldRightView.swift in Sources */,
 				5FE39F0D281D130E00346099 /* SceneDelegate.swift in Sources */,
 				5FE39F27281D306400346099 /* CustomTextField.swift in Sources */,
+				5F63E8952820216B00FAD57C /* CustomGreyButton.swift in Sources */,
+				5F3D05B52822597C0049D525 /* RegisterViewController.swift in Sources */,
+				5FC997912820FF2A00131E7A /* LoginViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -392,6 +526,7 @@
 		};
 		5FE39F1C281D131400346099 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C57894CC45F061B44C7FE9DF /* Pods-Navel-UI.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -401,7 +536,7 @@
 				INFOPLIST_FILE = "Navel-UI/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIMainStoryboardFile = Authentication;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -419,6 +554,7 @@
 		};
 		5FE39F1D281D131400346099 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2EA290E87F800AF6BCEC2EFC /* Pods-Navel-UI.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -428,7 +564,7 @@
 				INFOPLIST_FILE = "Navel-UI/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIMainStoryboardFile = Authentication;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (

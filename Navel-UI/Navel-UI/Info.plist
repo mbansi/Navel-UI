@@ -6,6 +6,10 @@
 	<array>
 		<string>Raleway-BoldItalic.ttf</string>
 		<string>Raleway-SemiBold.ttf</string>
+		<string>DelaGothicOne-Regular.ttf</string>
+		<string>Raleway-ExtraBold.ttf</string>
+		<string>Raleway-Medium.ttf</string>
+		<string>Raleway-Regular.ttf</string>
 	</array>
 	<key>UIApplicationSceneManifest</key>
 	<dict>
@@ -21,7 +25,7 @@
 					<key>UISceneDelegateClassName</key>
 					<string>$(PRODUCT_MODULE_NAME).SceneDelegate</string>
 					<key>UISceneStoryboardFile</key>
-					<string>Main</string>
+					<string>Authentication</string>
 				</dict>
 			</array>
 		</dict>

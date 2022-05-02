@@ -7,36 +7,23 @@
 
 import UIKit
 
-@IBDesignable
 class CustomFilledButton: UIButton {
-    @IBInspectable var cornerRadius: CGFloat = 23 {
-        didSet {
-           self.layer.cornerRadius = cornerRadius
-        }
+  
+    //MARK: - init
+    override init(frame: CGRect){
+        super.init(frame: frame)
     }
     
-    @IBInspectable var verticalPadding: CGFloat = 23 {
-        didSet {
-            self.configuration?.contentInsets.top = verticalPadding
-            self.configuration?.contentInsets.bottom = verticalPadding
-        }
+    required init?(coder: NSCoder) {
+        super.init(coder: coder)
+        setup()
     }
     
-    @IBInspectable var horizontalPadding: CGFloat = 104 {
-        didSet {
-            self.configuration?.contentInsets.leading = horizontalPadding
-            self.configuration?.contentInsets.trailing = horizontalPadding
-        }
-    }
-    
-    @IBInspectable var buttonColor: UIColor = UIColor.systemOrange {
-        didSet {
-           updateButton()
-        }
-    }
-   
-    func updateButton() {
-        self.backgroundColor = UIColor.systemOrange
-        self.titleLabel?.font = UIFont(name: "Raleway-SemiBold", size: 12)
+    //MARK: - Functions
+    func setup() {
+        self.titleLabel?.font = R.font.ralewaySemiBold(size: 12)
+        self.layer.cornerRadius = 23
+        self.titleLabel?.textColor = R.color.mediumGreen()
+        self.layer.backgroundColor = R.color.gold()?.cgColor
     }
 }
