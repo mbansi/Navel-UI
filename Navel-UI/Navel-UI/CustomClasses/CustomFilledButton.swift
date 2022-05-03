@@ -7,7 +7,7 @@
 
 import UIKit
 
-@IBDesignable
+//@IBDesignable
 class CustomFilledButton: UIButton {
     //    @IBInspectable var cornerRadius: CGFloat = 23 {
     //        didSet {

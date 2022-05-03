@@ -7,7 +7,7 @@
 
 import UIKit
 
-@IBDesignable
+//@IBDesignable
 class CustomGreyButton: CustomFilledButton {
 
     override func setup() {

@@ -11,6 +11,8 @@
 		5F63E893281FFA5E00FAD57C /* CustomButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F63E892281FFA5E00FAD57C /* CustomButton.swift */; };
 		5F63E8952820216B00FAD57C /* CustomGreyButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F63E8942820216B00FAD57C /* CustomGreyButton.swift */; };
 		5F63E897282024A600FAD57C /* CustomLabelH3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F63E896282024A600FAD57C /* CustomLabelH3.swift */; };
+		5FC9978F2820F2BE00131E7A /* CustomTextFieldRightView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FC9978E2820F2BE00131E7A /* CustomTextFieldRightView.swift */; };
+		5FC997912820FF2A00131E7A /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FC997902820FF2A00131E7A /* LoginViewController.swift */; };
 		5FE39F0B281D130E00346099 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FE39F0A281D130E00346099 /* AppDelegate.swift */; };
 		5FE39F0D281D130E00346099 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FE39F0C281D130E00346099 /* SceneDelegate.swift */; };
 		5FE39F0F281D130E00346099 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FE39F0E281D130E00346099 /* ViewController.swift */; };
@@ -46,6 +48,8 @@
 		5F63E892281FFA5E00FAD57C /* CustomButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomButton.swift; sourceTree = "<group>"; };
 		5F63E8942820216B00FAD57C /* CustomGreyButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomGreyButton.swift; sourceTree = "<group>"; };
 		5F63E896282024A600FAD57C /* CustomLabelH3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomLabelH3.swift; sourceTree = "<group>"; };
+		5FC9978E2820F2BE00131E7A /* CustomTextFieldRightView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTextFieldRightView.swift; sourceTree = "<group>"; };
+		5FC997902820FF2A00131E7A /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		5FE39F07281D130E00346099 /* Navel-UI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Navel-UI.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5FE39F0A281D130E00346099 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5FE39F0C281D130E00346099 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -125,6 +129,7 @@
 			isa = PBXGroup;
 			children = (
 				5FE39F1F281D13F700346099 /* Login.storyboard */,
+				5FC997902820FF2A00131E7A /* LoginViewController.swift */,
 			);
 			path = Login;
 			sourceTree = "<group>";
@@ -138,6 +143,7 @@
 				5F63E892281FFA5E00FAD57C /* CustomButton.swift */,
 				5F63E8942820216B00FAD57C /* CustomGreyButton.swift */,
 				5F63E896282024A600FAD57C /* CustomLabelH3.swift */,
+				5FC9978E2820F2BE00131E7A /* CustomTextFieldRightView.swift */,
 			);
 			path = CustomClasses;
 			sourceTree = "<group>";
@@ -264,9 +270,11 @@
 				5FE39F0B281D130E00346099 /* AppDelegate.swift in Sources */,
 				5FE39F23281D14CD00346099 /* CustomFilledButton.swift in Sources */,
 				5F63E893281FFA5E00FAD57C /* CustomButton.swift in Sources */,
+				5FC9978F2820F2BE00131E7A /* CustomTextFieldRightView.swift in Sources */,
 				5FE39F0D281D130E00346099 /* SceneDelegate.swift in Sources */,
 				5FE39F27281D306400346099 /* CustomTextField.swift in Sources */,
 				5F63E8952820216B00FAD57C /* CustomGreyButton.swift in Sources */,
+				5FC997912820FF2A00131E7A /* LoginViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

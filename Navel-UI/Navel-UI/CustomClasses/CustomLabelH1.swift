@@ -7,7 +7,7 @@
 
 import UIKit
 
-@IBDesignable
+//@IBDesignable
 class CustomLabelH1: UILabel {
     
     override init(frame: CGRect){

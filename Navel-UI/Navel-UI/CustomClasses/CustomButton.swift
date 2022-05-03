@@ -15,6 +15,6 @@ class CustomButton: UIButton {
     }
 
     func setup(){
-        self.layer.cornerRadius = 50
+        self.titleLabel?.font = UIFont(name: "Raleway-Medium", size: 12)
     }
 }
