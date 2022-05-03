@@ -8,28 +8,33 @@
 import UIKit
 
 class CustomTextFieldRightView: CustomTextField {
-
-    var rightPadding: CGFloat = 25
+    
+    
+    var imageRightPadding: CGFloat = -25
     
     override func rightViewRect(forBounds bounds: CGRect) -> CGRect {
-        var textRect = super.rightViewRect(forBounds: bounds)
-        textRect.origin.x += rightPadding
-        return textRect
+        let rect = super.rightViewRect(forBounds: bounds)
+        return rect.inset(by: UIEdgeInsets(top: 0, left:imageRightPadding,bottom:0,right:0))
     }
     
     required init?(coder: NSCoder) {
         super.init(coder: coder)
         // This will call `awakeFromNib` in your code
-      //  updateRightView()
+        updateRightView()
     }
     
     func updateRightView() {
-        rightViewMode = UITextField.ViewMode.always
-        let button = UIButton(type: .custom)
-        button.titleLabel?.text = "Forgot?"
-        button.titleLabel?.textColor = UIColor.systemBlue
-        button.frame = CGRect(x: 0, y: 0, width: 50, height: 15)
-        button.backgroundColor = UIColor.red
-        rightView = button
+        let forgotButton = UIButton(type: .custom)
+        forgotButton.addTarget(self, action: #selector(onClick), for: .touchUpInside)
+        forgotButton.frame = CGRect(x: 0, y: 0, width: 43, height: 14)
+        forgotButton.titleLabel?.text = "Forgot?"
+        forgotButton.titleLabel?.textColor = UIColor(red: 0.837, green: 0.637, blue: 0.401, alpha: 1)
+        self.rightViewMode = .always
+        self.rightView = forgotButton
     }
+    
+    @objc func onClick() {
+        print("Click")
+    }
+    
 }

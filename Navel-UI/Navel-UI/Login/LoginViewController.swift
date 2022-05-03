@@ -13,7 +13,6 @@ class LoginViewController: UIViewController {
     @IBOutlet weak var tfPassword: CustomTextField!
     override func viewDidLoad() {
         super.viewDidLoad()
-
        
     }
     

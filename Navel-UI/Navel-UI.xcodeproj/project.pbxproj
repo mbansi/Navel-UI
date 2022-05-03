@@ -13,6 +13,7 @@
 		5F63E897282024A600FAD57C /* CustomLabelH3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F63E896282024A600FAD57C /* CustomLabelH3.swift */; };
 		5FC9978F2820F2BE00131E7A /* CustomTextFieldRightView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FC9978E2820F2BE00131E7A /* CustomTextFieldRightView.swift */; };
 		5FC997912820FF2A00131E7A /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FC997902820FF2A00131E7A /* LoginViewController.swift */; };
+		5FC997932821370700131E7A /* CustomLabelH4.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FC997922821370700131E7A /* CustomLabelH4.swift */; };
 		5FE39F0B281D130E00346099 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FE39F0A281D130E00346099 /* AppDelegate.swift */; };
 		5FE39F0D281D130E00346099 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FE39F0C281D130E00346099 /* SceneDelegate.swift */; };
 		5FE39F0F281D130E00346099 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FE39F0E281D130E00346099 /* ViewController.swift */; };
@@ -50,6 +51,7 @@
 		5F63E896282024A600FAD57C /* CustomLabelH3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomLabelH3.swift; sourceTree = "<group>"; };
 		5FC9978E2820F2BE00131E7A /* CustomTextFieldRightView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTextFieldRightView.swift; sourceTree = "<group>"; };
 		5FC997902820FF2A00131E7A /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		5FC997922821370700131E7A /* CustomLabelH4.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomLabelH4.swift; sourceTree = "<group>"; };
 		5FE39F07281D130E00346099 /* Navel-UI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Navel-UI.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5FE39F0A281D130E00346099 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5FE39F0C281D130E00346099 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -144,6 +146,7 @@
 				5F63E8942820216B00FAD57C /* CustomGreyButton.swift */,
 				5F63E896282024A600FAD57C /* CustomLabelH3.swift */,
 				5FC9978E2820F2BE00131E7A /* CustomTextFieldRightView.swift */,
+				5FC997922821370700131E7A /* CustomLabelH4.swift */,
 			);
 			path = CustomClasses;
 			sourceTree = "<group>";
@@ -269,6 +272,7 @@
 				5FE39F0F281D130E00346099 /* ViewController.swift in Sources */,
 				5FE39F0B281D130E00346099 /* AppDelegate.swift in Sources */,
 				5FE39F23281D14CD00346099 /* CustomFilledButton.swift in Sources */,
+				5FC997932821370700131E7A /* CustomLabelH4.swift in Sources */,
 				5F63E893281FFA5E00FAD57C /* CustomButton.swift in Sources */,
 				5FC9978F2820F2BE00131E7A /* CustomTextFieldRightView.swift in Sources */,
 				5FE39F0D281D130E00346099 /* SceneDelegate.swift in Sources */,

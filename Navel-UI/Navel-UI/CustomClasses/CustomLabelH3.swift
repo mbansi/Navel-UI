@@ -20,8 +20,7 @@ class CustomLabelH3: UILabel {
     }
     
     private func setup() {
-        self.textColor = .white
+      //  self.textColor = .white
         self.font = UIFont(name: "Raleway-Medium", size: 12)
     }
-
 }
