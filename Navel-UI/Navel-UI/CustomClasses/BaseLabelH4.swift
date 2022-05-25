@@ -22,7 +22,8 @@ class BaseLabelH4: UILabel {
     
     //MARK: - Functions
     private func setup() {
-        self.textColor = UIColor(red: 0.696, green: 0.651, blue: 0.6, alpha: 1)
+        self.textColor = R.color.mediumGreen()
+        //UIColor(red: 0.696, green: 0.651, blue: 0.6, alpha: 1)
         self.font = R.font.ralewayRegular(size: 10)
         self.addImage()
     }
