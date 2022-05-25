@@ -9,6 +9,17 @@ import UIKit
 
 class BaseTextField: UITextField {
     
+    //MARK: - init
+    override init(frame: CGRect){
+        super.init(frame: frame)
+        setup()
+    }
+    
+    required init?(coder: NSCoder) {
+        super.init(coder: coder)
+        setup()
+    }
+    
     //MARK: - Variables
     var leftPadding: CGFloat = 25
     var textPadding = UIEdgeInsets(
@@ -22,11 +33,13 @@ class BaseTextField: UITextField {
     @IBInspectable var leftImage: UIImage? {
         didSet {
             updateImage()
-            updateTextField()
         }
     }
     
+    
+    
     //MARK: - Functions
+    
     override func leftViewRect(forBounds bounds: CGRect) -> CGRect {
         var textRect = super.leftViewRect(forBounds: bounds)
         textRect.origin.x += leftPadding
@@ -43,7 +56,7 @@ class BaseTextField: UITextField {
         return rect.inset(by: textPadding)
     }
     
-    func updateTextField() {
+    func setup() {
         self.backgroundColor = R.color.darkGreen()
         self.textColor = R.color.brown()
         self.font = R.font.ralewayMedium(size: 12)
@@ -52,6 +65,14 @@ class BaseTextField: UITextField {
         bottomLine.backgroundColor = UIColor.gray.cgColor
         self.borderStyle = UITextField.BorderStyle.none
         self.layer.addSublayer(bottomLine)
+        
+        guard let placeholder = self.placeholder else {
+            return
+        }
+        self.attributedPlaceholder = NSAttributedString(
+            string: placeholder,
+            attributes: [NSAttributedString.Key.foregroundColor: R.color.lightGreen()]
+        )
     }
     
     func updateImage() {

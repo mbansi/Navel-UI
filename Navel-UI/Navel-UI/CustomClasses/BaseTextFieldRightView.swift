@@ -17,6 +17,10 @@ class BaseTextFieldRightView: BaseTextField {
         super.init(coder: coder)
         updateRightView()
     }
+    override init(frame: CGRect){
+        super.init(frame: frame)
+        updateRightView()
+    }
     
     //MARK: - Functions
     override func rightViewRect(forBounds bounds: CGRect) -> CGRect {

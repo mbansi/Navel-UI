@@ -12,6 +12,7 @@ class BaseLabelH4: UILabel {
     //MARK: - init
     override init(frame: CGRect){
         super.init(frame: frame)
+        setup()
     }
     
     required init?(coder: NSCoder) {

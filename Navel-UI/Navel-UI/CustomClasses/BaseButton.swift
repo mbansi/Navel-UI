@@ -14,6 +14,10 @@ class BaseButton: UIButton {
         super.init(coder: coder)
         setup()
     }
+    override init(frame: CGRect){
+        super.init(frame: frame)
+        setup()
+    }
 
     //MARK: - Functions
     func setup(){
