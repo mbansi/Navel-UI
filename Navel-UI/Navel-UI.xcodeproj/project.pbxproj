@@ -19,6 +19,11 @@
 		5F989D62282A414D002B76F2 /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F989D5E282A414D002B76F2 /* RegisterViewController.swift */; };
 		5FC9978F2820F2BE00131E7A /* BaseTextFieldRightView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FC9978E2820F2BE00131E7A /* BaseTextFieldRightView.swift */; };
 		5FC997932821370700131E7A /* BaseLabelH4.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FC997922821370700131E7A /* BaseLabelH4.swift */; };
+		5FDDCBAD2840D8D000A51EE1 /* Profile.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5FDDCBAC2840D8D000A51EE1 /* Profile.storyboard */; };
+		5FDDCBAF2840D9A900A51EE1 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FDDCBAE2840D9A900A51EE1 /* ProfileViewController.swift */; };
+		5FDDCBB42840EA9800A51EE1 /* ProfileMenuModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FDDCBB32840EA9800A51EE1 /* ProfileMenuModel.swift */; };
+		5FDDCBB62840EC4D00A51EE1 /* MenuTitleTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FDDCBB52840EC4D00A51EE1 /* MenuTitleTableViewCell.swift */; };
+		5FDDCBB82840EFC000A51EE1 /* BaseLabelProfileTitle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FDDCBB72840EFC000A51EE1 /* BaseLabelProfileTitle.swift */; };
 		5FE39F0B281D130E00346099 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FE39F0A281D130E00346099 /* AppDelegate.swift */; };
 		5FE39F0D281D130E00346099 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FE39F0C281D130E00346099 /* SceneDelegate.swift */; };
 		5FE39F0F281D130E00346099 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FE39F0E281D130E00346099 /* ViewController.swift */; };
@@ -50,6 +55,12 @@
 		5F989D5E282A414D002B76F2 /* RegisterViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
 		5FC9978E2820F2BE00131E7A /* BaseTextFieldRightView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseTextFieldRightView.swift; sourceTree = "<group>"; };
 		5FC997922821370700131E7A /* BaseLabelH4.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseLabelH4.swift; sourceTree = "<group>"; };
+		5FDDCBAC2840D8D000A51EE1 /* Profile.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Profile.storyboard; sourceTree = "<group>"; };
+		5FDDCBAE2840D9A900A51EE1 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		5FDDCBB02840E70900A51EE1 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = "Navel-UI/Info.plist"; sourceTree = "<group>"; };
+		5FDDCBB32840EA9800A51EE1 /* ProfileMenuModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileMenuModel.swift; sourceTree = "<group>"; };
+		5FDDCBB52840EC4D00A51EE1 /* MenuTitleTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuTitleTableViewCell.swift; sourceTree = "<group>"; };
+		5FDDCBB72840EFC000A51EE1 /* BaseLabelProfileTitle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseLabelProfileTitle.swift; sourceTree = "<group>"; };
 		5FE39F07281D130E00346099 /* Navel-UI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Navel-UI.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5FE39F0A281D130E00346099 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5FE39F0C281D130E00346099 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -100,9 +111,22 @@
 			path = "Navel-UI/Login";
 			sourceTree = "<group>";
 		};
+		5FDDCBAB2840D87D00A51EE1 /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				5FDDCBAC2840D8D000A51EE1 /* Profile.storyboard */,
+				5FDDCBAE2840D9A900A51EE1 /* ProfileViewController.swift */,
+				5FDDCBB32840EA9800A51EE1 /* ProfileMenuModel.swift */,
+				5FDDCBB52840EC4D00A51EE1 /* MenuTitleTableViewCell.swift */,
+			);
+			path = Profile;
+			sourceTree = "<group>";
+		};
 		5FE39EFE281D130E00346099 = {
 			isa = PBXGroup;
 			children = (
+				5FDDCBB02840E70900A51EE1 /* Info.plist */,
+				5FDDCBAB2840D87D00A51EE1 /* Profile */,
 				5F989D5A282A414D002B76F2 /* Login */,
 				5F3D05BC28229D730049D525 /* Localizable.strings */,
 				5F3D05BA28229CF70049D525 /* R.generated.swift */,
@@ -148,6 +172,7 @@
 				5F63E896282024A600FAD57C /* BaseLabelH3.swift */,
 				5FC9978E2820F2BE00131E7A /* BaseTextFieldRightView.swift */,
 				5FC997922821370700131E7A /* BaseLabelH4.swift */,
+				5FDDCBB72840EFC000A51EE1 /* BaseLabelProfileTitle.swift */,
 			);
 			path = CustomClasses;
 			sourceTree = "<group>";
@@ -235,6 +260,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5FE39F17281D131400346099 /* LaunchScreen.storyboard in Resources */,
+				5FDDCBAD2840D8D000A51EE1 /* Profile.storyboard in Resources */,
 				5FE39F3C281D412C00346099 /* Raleway-BoldItalic.ttf in Resources */,
 				5FE39F40281D412C00346099 /* Raleway-Medium.ttf in Resources */,
 				5FE39F14281D131400346099 /* Assets.xcassets in Resources */,
@@ -318,9 +344,13 @@
 				5F989D61282A414D002B76F2 /* LoginViewController.swift in Sources */,
 				5F63E890281FD98500FAD57C /* BaseLabelH1.swift in Sources */,
 				5F3D05BB28229CF80049D525 /* R.generated.swift in Sources */,
+				5FDDCBB82840EFC000A51EE1 /* BaseLabelProfileTitle.swift in Sources */,
 				5F63E897282024A600FAD57C /* BaseLabelH3.swift in Sources */,
 				5FE39F0F281D130E00346099 /* ViewController.swift in Sources */,
+				5FDDCBB62840EC4D00A51EE1 /* MenuTitleTableViewCell.swift in Sources */,
 				5FE39F0B281D130E00346099 /* AppDelegate.swift in Sources */,
+				5FDDCBAF2840D9A900A51EE1 /* ProfileViewController.swift in Sources */,
+				5FDDCBB42840EA9800A51EE1 /* ProfileMenuModel.swift in Sources */,
 				5F989D62282A414D002B76F2 /* RegisterViewController.swift in Sources */,
 				5F2E52962829057A00DD55DD /* Constants.swift in Sources */,
 				5FE39F23281D14CD00346099 /* BaseFilledButton.swift in Sources */,
@@ -483,7 +513,7 @@
 				INFOPLIST_FILE = "Navel-UI/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Authentication;
+				INFOPLIST_KEY_UIMainStoryboardFile = Profile;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -511,7 +541,7 @@
 				INFOPLIST_FILE = "Navel-UI/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Authentication;
+				INFOPLIST_KEY_UIMainStoryboardFile = Profile;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
