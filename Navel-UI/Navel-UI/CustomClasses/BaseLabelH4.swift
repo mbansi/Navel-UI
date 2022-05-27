@@ -20,23 +20,29 @@ class BaseLabelH4: UILabel {
         setup()
     }
     
+    var leftPadding: CGFloat = 25
+    
+    
     //MARK: - Functions
+    
     private func setup() {
-        self.textColor = R.color.mediumGreen()
+        self.textColor = R.color.gold()
         //UIColor(red: 0.696, green: 0.651, blue: 0.6, alpha: 1)
-        self.font = R.font.ralewayRegular(size: 10)
-        self.addImage()
+        self.font = R.font.ralewayRegular(size: 13)
+    self.addImage()
     }
     
     func addImage() {
         let imageAttachment = NSTextAttachment()
         imageAttachment.image = UIImage(named: Constants.locationImage)
         
-        guard let width = imageAttachment.image?.size.width, let height = imageAttachment.image?.size.height else {
-            return
-        }
-        imageAttachment.bounds = CGRect(x: 0, y: 0, width: width, height: height)
+//        guard let width = imageAttachment.image?.size.width, let height = imageAttachment.image?.size.height else {
+//            return
+//        }
+//        imageAttachment.bounds = CGRect(x: 0, y: 0, width: width, height: height)
         let attachmentString = NSAttributedString(attachment: imageAttachment)
+        
+    
         let completeText = NSMutableAttributedString(string: "")
         completeText.append(attachmentString)
         guard let text = self.text else {
@@ -44,7 +50,7 @@ class BaseLabelH4: UILabel {
         }
         let textAfterIcon = NSAttributedString(string: text)
         completeText.append(textAfterIcon)
-        self.textAlignment = .right
+      //  self.textAlignment = .right
         self.attributedText = completeText
     }
 }

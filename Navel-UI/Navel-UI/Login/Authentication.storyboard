@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="19455" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="9El-VP-wsw">
-    <device id="retina6_7" orientation="portrait" appearance="light"/>
+    <device id="retina5_9" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19454"/>
         <capability name="Named colors" minToolsVersion="9.0"/>
@@ -14,20 +14,20 @@
             <objects>
                 <viewController storyboardIdentifier="LoginViewController" id="gNA-J4-1Zc" customClass="LoginViewController" customModule="Navel_UI" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="eAo-lS-UpI">
-                        <rect key="frame" x="0.0" y="0.0" width="428" height="926"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" bounces="NO" showsVerticalScrollIndicator="NO" translatesAutoresizingMaskIntoConstraints="NO" id="flK-kv-gvo" customClass="TPKeyboardAvoidingScrollView" customModule="TPKeyboardAvoidingSwift">
-                                <rect key="frame" x="0.0" y="0.0" width="428" height="926"/>
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="nsB-oL-7sr">
-                                        <rect key="frame" x="0.0" y="0.0" width="428" height="822.66666666666663"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="375" height="822.66666666666663"/>
                                         <subviews>
                                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="BackgroundLogin" translatesAutoresizingMaskIntoConstraints="NO" id="OT5-ho-wCm">
-                                                <rect key="frame" x="0.0" y="0.0" width="428" height="441"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="375" height="441"/>
                                             </imageView>
                                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Fading" translatesAutoresizingMaskIntoConstraints="NO" id="xQz-Zr-a12">
-                                                <rect key="frame" x="0.0" y="188.66666666666663" width="428" height="634"/>
+                                                <rect key="frame" x="0.0" y="188.66666666666663" width="375" height="634"/>
                                             </imageView>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Login" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nHg-sq-e5G" customClass="BaseLabelH1" customModule="Navel_UI" customModuleProvider="target">
                                                 <rect key="frame" x="29.999999999999996" y="319" width="41.666666666666657" height="20.333333333333314"/>
@@ -36,10 +36,10 @@
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="15" translatesAutoresizingMaskIntoConstraints="NO" id="HB9-Uo-Hgj">
-                                                <rect key="frame" x="30" y="379.33333333333331" width="368" height="134.99999999999994"/>
+                                                <rect key="frame" x="30" y="379.33333333333331" width="315" height="134.99999999999994"/>
                                                 <subviews>
                                                     <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Email" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="vl8-7Y-Gxo" customClass="BaseTextField" customModule="Navel_UI" customModuleProvider="target">
-                                                        <rect key="frame" x="0.0" y="0.0" width="368" height="60"/>
+                                                        <rect key="frame" x="0.0" y="0.0" width="315" height="60"/>
                                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                         <textInputTraits key="textInputTraits" keyboardType="emailAddress" returnKeyType="next"/>
                                                         <userDefinedRuntimeAttributes>
@@ -50,7 +50,7 @@
                                                         </connections>
                                                     </textField>
                                                     <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Password" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="bAZ-rH-6F2" customClass="BaseTextFieldRightView" customModule="Navel_UI" customModuleProvider="target">
-                                                        <rect key="frame" x="0.0" y="75" width="368" height="60"/>
+                                                        <rect key="frame" x="0.0" y="75" width="315" height="60"/>
                                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                         <textInputTraits key="textInputTraits" returnKeyType="done" secureTextEntry="YES"/>
                                                         <userDefinedRuntimeAttributes>
@@ -66,10 +66,10 @@
                                                 </constraints>
                                             </stackView>
                                             <stackView opaque="NO" contentMode="scaleToFill" spacing="15" translatesAutoresizingMaskIntoConstraints="NO" id="ULR-bl-gi4">
-                                                <rect key="frame" x="30" y="544.33333333333337" width="368" height="60"/>
+                                                <rect key="frame" x="30" y="544.33333333333337" width="315" height="60"/>
                                                 <subviews>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="St8-8V-1aR" customClass="BaseFilledButton" customModule="Navel_UI" customModuleProvider="target">
-                                                        <rect key="frame" x="0.0" y="0.0" width="293" height="60"/>
+                                                        <rect key="frame" x="0.0" y="0.0" width="240" height="60"/>
                                                         <state key="normal" title="Button"/>
                                                         <buttonConfiguration key="configuration" style="plain" title="Login">
                                                             <color key="baseForegroundColor" name="Medium-Green"/>
@@ -79,7 +79,7 @@
                                                         </connections>
                                                     </button>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9fD-A2-5mO" customClass="BaseGreyButton" customModule="Navel_UI" customModuleProvider="target">
-                                                        <rect key="frame" x="308" y="0.0" width="60" height="60"/>
+                                                        <rect key="frame" x="255" y="0.0" width="60" height="60"/>
                                                         <constraints>
                                                             <constraint firstAttribute="width" constant="60" id="UoZ-Tt-HaV"/>
                                                         </constraints>
@@ -92,26 +92,26 @@
                                                 </constraints>
                                             </stackView>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Or Login With" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ied-qq-vqC" customClass="BaseLabelH3" customModule="Navel_UI" customModuleProvider="target">
-                                                <rect key="frame" x="162" y="624.33333333333337" width="104.33333333333331" height="20.333333333333371"/>
+                                                <rect key="frame" x="135.33333333333334" y="624.33333333333337" width="104.33333333333334" height="20.333333333333371"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="24" translatesAutoresizingMaskIntoConstraints="NO" id="euy-cr-cc6">
-                                                <rect key="frame" x="30" y="664.66666666666663" width="368" height="60"/>
+                                                <rect key="frame" x="30" y="664.66666666666663" width="315" height="60"/>
                                                 <subviews>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YHJ-U2-5vN" customClass="BaseGreyButton" customModule="Navel_UI" customModuleProvider="target">
-                                                        <rect key="frame" x="0.0" y="0.0" width="106.66666666666667" height="60"/>
+                                                        <rect key="frame" x="0.0" y="0.0" width="89" height="60"/>
                                                         <state key="normal" title="Button"/>
                                                         <buttonConfiguration key="configuration" style="plain" image="Apple"/>
                                                     </button>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="565-8n-K32" customClass="BaseGreyButton" customModule="Navel_UI" customModuleProvider="target">
-                                                        <rect key="frame" x="130.66666666666666" y="0.0" width="106.66666666666666" height="60"/>
+                                                        <rect key="frame" x="113" y="0.0" width="89" height="60"/>
                                                         <state key="normal" title="Button"/>
                                                         <buttonConfiguration key="configuration" style="plain" image="Google"/>
                                                     </button>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NEp-cc-sVH" customClass="BaseGreyButton" customModule="Navel_UI" customModuleProvider="target">
-                                                        <rect key="frame" x="261.33333333333331" y="0.0" width="106.66666666666669" height="60"/>
+                                                        <rect key="frame" x="226" y="0.0" width="89" height="60"/>
                                                         <state key="normal" title="Button"/>
                                                         <buttonConfiguration key="configuration" style="plain" image="Facebook"/>
                                                     </button>
@@ -121,7 +121,7 @@
                                                 </constraints>
                                             </stackView>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hAu-jz-ptV" customClass="BaseButton" customModule="Navel_UI" customModuleProvider="target">
-                                                <rect key="frame" x="132.33333333333331" y="764.66666666666663" width="163.33333333333331" height="28"/>
+                                                <rect key="frame" x="106.00000000000001" y="764.66666666666663" width="163.33333333333337" height="28"/>
                                                 <state key="normal" title="Button"/>
                                                 <buttonConfiguration key="configuration" style="plain">
                                                     <attributedString key="attributedTitle">
@@ -181,7 +181,7 @@
                                 </constraints>
                             </scrollView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="right" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LAh-SE-HXP" customClass="BaseLabelH4" customModule="Navel_UI" customModuleProvider="target">
-                                <rect key="frame" x="300" y="54" width="98" height="40.666666666666657"/>
+                                <rect key="frame" x="247" y="54" width="98" height="40.666666666666657"/>
                                 <constraints>
                                     <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="24" id="W3K-ik-2Gb"/>
                                 </constraints>
@@ -218,20 +218,20 @@ Indoensia</string>
             <objects>
                 <viewController storyboardIdentifier="RegisterViewController" id="lq5-uI-AgV" customClass="RegisterViewController" customModule="Navel_UI" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Ye0-t4-3Uj">
-                        <rect key="frame" x="0.0" y="0.0" width="428" height="926"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" bounces="NO" showsVerticalScrollIndicator="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GDG-PH-PJ9" customClass="TPKeyboardAvoidingScrollView" customModule="TPKeyboardAvoidingSwift">
-                                <rect key="frame" x="0.0" y="0.0" width="428" height="926"/>
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="7c0-3C-br8">
-                                        <rect key="frame" x="0.0" y="0.0" width="428" height="897.66666666666663"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="375" height="897.66666666666663"/>
                                         <subviews>
                                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="BackgroundRegister" translatesAutoresizingMaskIntoConstraints="NO" id="Elj-LT-PXv">
-                                                <rect key="frame" x="0.0" y="0.0" width="428" height="441"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="375" height="441"/>
                                             </imageView>
                                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Fading" translatesAutoresizingMaskIntoConstraints="NO" id="M8n-tF-Xkr">
-                                                <rect key="frame" x="0.0" y="191.66666666666663" width="428" height="634"/>
+                                                <rect key="frame" x="0.0" y="191.66666666666663" width="375" height="634"/>
                                             </imageView>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Register" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="UK1-2a-sbP" customClass="BaseLabelH1" customModule="Navel_UI" customModuleProvider="target">
                                                 <rect key="frame" x="30" y="319" width="63" height="20.333333333333314"/>
@@ -240,10 +240,10 @@ Indoensia</string>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="15" translatesAutoresizingMaskIntoConstraints="NO" id="cqq-x4-jD0">
-                                                <rect key="frame" x="30" y="379.33333333333331" width="368" height="209.99999999999994"/>
+                                                <rect key="frame" x="30" y="379.33333333333331" width="315" height="209.99999999999994"/>
                                                 <subviews>
                                                     <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Full Name" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="guC-9W-aJm" customClass="BaseTextField" customModule="Navel_UI" customModuleProvider="target">
-                                                        <rect key="frame" x="0.0" y="0.0" width="368" height="60"/>
+                                                        <rect key="frame" x="0.0" y="0.0" width="315" height="60"/>
                                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                         <textInputTraits key="textInputTraits" autocapitalizationType="words" returnKeyType="next"/>
                                                         <userDefinedRuntimeAttributes>
@@ -254,7 +254,7 @@ Indoensia</string>
                                                         </connections>
                                                     </textField>
                                                     <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Email" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="r3K-yt-wky" customClass="BaseTextField" customModule="Navel_UI" customModuleProvider="target">
-                                                        <rect key="frame" x="0.0" y="75" width="368" height="60"/>
+                                                        <rect key="frame" x="0.0" y="75" width="315" height="60"/>
                                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                         <textInputTraits key="textInputTraits" keyboardType="emailAddress" returnKeyType="next"/>
                                                         <userDefinedRuntimeAttributes>
@@ -265,7 +265,7 @@ Indoensia</string>
                                                         </connections>
                                                     </textField>
                                                     <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Password" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="4Bk-c6-EDr" customClass="BaseTextField" customModule="Navel_UI" customModuleProvider="target">
-                                                        <rect key="frame" x="0.0" y="150.00000000000006" width="368" height="60"/>
+                                                        <rect key="frame" x="0.0" y="150.00000000000006" width="315" height="60"/>
                                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                         <textInputTraits key="textInputTraits" returnKeyType="done" secureTextEntry="YES"/>
                                                         <userDefinedRuntimeAttributes>
@@ -281,7 +281,7 @@ Indoensia</string>
                                                 </constraints>
                                             </stackView>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DnK-dr-sxB" customClass="BaseFilledButton" customModule="Navel_UI" customModuleProvider="target">
-                                                <rect key="frame" x="30" y="619.33333333333337" width="368" height="60"/>
+                                                <rect key="frame" x="30" y="619.33333333333337" width="315" height="60"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="60" id="W2b-0Z-Bjy"/>
                                                 </constraints>
@@ -294,26 +294,26 @@ Indoensia</string>
                                                 </connections>
                                             </button>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Or Register With" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="E7g-Xw-tow" customClass="BaseLabelH3" customModule="Navel_UI" customModuleProvider="target">
-                                                <rect key="frame" x="151.33333333333334" y="699.33333333333337" width="125.33333333333334" height="20.333333333333371"/>
+                                                <rect key="frame" x="125" y="699.33333333333337" width="125.33333333333331" height="20.333333333333371"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                 <color key="textColor" name="Brown"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="24" translatesAutoresizingMaskIntoConstraints="NO" id="jbm-mw-8bx">
-                                                <rect key="frame" x="30" y="739.66666666666663" width="368" height="60"/>
+                                                <rect key="frame" x="30" y="739.66666666666663" width="315" height="60"/>
                                                 <subviews>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="N1b-BM-oYY" customClass="BaseGreyButton" customModule="Navel_UI" customModuleProvider="target">
-                                                        <rect key="frame" x="0.0" y="0.0" width="106.66666666666667" height="60"/>
+                                                        <rect key="frame" x="0.0" y="0.0" width="89" height="60"/>
                                                         <state key="normal" title="Button"/>
                                                         <buttonConfiguration key="configuration" style="plain" image="Apple"/>
                                                     </button>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="44E-Fj-iMz" customClass="BaseGreyButton" customModule="Navel_UI" customModuleProvider="target">
-                                                        <rect key="frame" x="130.66666666666666" y="0.0" width="106.66666666666666" height="60"/>
+                                                        <rect key="frame" x="113" y="0.0" width="89" height="60"/>
                                                         <state key="normal" title="Button"/>
                                                         <buttonConfiguration key="configuration" style="plain" image="Google"/>
                                                     </button>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Hbn-ts-U74" customClass="BaseGreyButton" customModule="Navel_UI" customModuleProvider="target">
-                                                        <rect key="frame" x="261.33333333333331" y="0.0" width="106.66666666666669" height="60"/>
+                                                        <rect key="frame" x="226" y="0.0" width="89" height="60"/>
                                                         <state key="normal" title="Button"/>
                                                         <buttonConfiguration key="configuration" style="plain" image="Facebook"/>
                                                     </button>
@@ -323,7 +323,7 @@ Indoensia</string>
                                                 </constraints>
                                             </stackView>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="R0N-P6-tRN" customClass="BaseButton" customModule="Navel_UI" customModuleProvider="target">
-                                                <rect key="frame" x="99.333333333333329" y="839.66666666666663" width="229.66666666666669" height="28"/>
+                                                <rect key="frame" x="72.666666666666671" y="839.66666666666663" width="229.66666666666663" height="28"/>
                                                 <state key="normal" title="Button"/>
                                                 <buttonConfiguration key="configuration" style="plain">
                                                     <attributedString key="attributedTitle">
@@ -410,7 +410,7 @@ Indoensia</string>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="9El-VP-wsw" sceneMemberID="viewController">
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" largeTitles="YES" id="9kY-Pv-UgK">
-                        <rect key="frame" x="0.0" y="44" width="428" height="96"/>
+                        <rect key="frame" x="0.0" y="44" width="375" height="96"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
                     <nil name="viewControllers"/>

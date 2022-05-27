@@ -10,7 +10,6 @@ import UIKit
 class OnboardingViewController: UIViewController {
     
     @IBOutlet weak var collectionView: UICollectionView!
-    
     @IBOutlet weak var onboardButton: BaseFilledButton!
     @IBOutlet weak var pageControl: UIPageControl!
     
@@ -19,11 +18,11 @@ class OnboardingViewController: UIViewController {
             didSet {
                 if currentPage == slides.count - 1  {
                     onboardButton.setTitle("Sign up", for: .normal)
-                    onboardButton.setBackgroundImage(nil, for: .normal)
+                    onboardButton.setImage(nil, for: .normal)
                 }
                 else {
                     onboardButton.setTitle(nil, for: .normal)
-                    onboardButton.setBackgroundImage(UIImage(named: "Next"), for: .normal)
+                    onboardButton.setImage(UIImage(named: "Next"), for: .normal)
                 }
             }
         }
@@ -35,6 +34,7 @@ class OnboardingViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+       
         // Do any additional setup after loading the view.
         
     }
@@ -80,7 +80,7 @@ extension OnboardingViewController: UICollectionViewDelegate, UICollectionViewDa
         }
         else {
             onboardButton.setTitle("", for: .normal)
-            onboardButton.setBackgroundImage(UIImage(named: "Next"), for: .normal)
+            onboardButton.setImage(UIImage(named: "Next"), for: .normal)
         }
     }
 }
@@ -90,14 +90,11 @@ extension OnboardingViewController: UICollectionViewDelegateFlowLayout {
     func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, sizeForItemAt indexPath: IndexPath) -> CGSize {
         
         return CGSize(width: collectionView.frame.width, height: collectionView.frame.height)
-        
     }
     
     func scrollViewDidEndDecelerating(_ scrollView: UIScrollView) {
-        
         currentPage = Int(scrollView.contentOffset.x / scrollView.frame.width)
         pageControl.currentPage = currentPage
-        changeButton()
-        
+     //   changeButton()
     }
 }
