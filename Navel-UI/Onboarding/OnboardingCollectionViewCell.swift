@@ -16,6 +16,6 @@ class OnboardingCollectionViewCell: UICollectionViewCell {
     func setup(_ slide: OnboardingSlide) {
         sliderImage.image = slide.image
         lblTitle.text = slide.title
-        lblLocation.text = slide.location
+        lblLocation.addImage(slide.location)
     }
 }

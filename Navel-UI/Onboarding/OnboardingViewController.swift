@@ -9,19 +9,24 @@ import UIKit
 
 class OnboardingViewController: UIViewController {
     
+    //MARK: - Outlets
     @IBOutlet weak var collectionView: UICollectionView!
     @IBOutlet weak var onboardButton: BaseFilledButton!
     @IBOutlet weak var pageControl: UIPageControl!
     
+    //MARK: - Variables
     var currentPage = 0
         {
             didSet {
                 if currentPage == slides.count - 1  {
                     onboardButton.setTitle("Sign up", for: .normal)
-                    onboardButton.setImage(nil, for: .normal)
+                    onboardButton.setTitleColor(R.color.mediumGreen(), for: .normal)
+                    onboardButton.setImage(UIImage(), for: .normal)
+                    
+                    onboardButton.titleLabel?.font = R.font.ralewayRegular(size: 8)
                 }
                 else {
-                    onboardButton.setTitle(nil, for: .normal)
+                   onboardButton.setTitle("", for: .normal)
                     onboardButton.setImage(UIImage(named: "Next"), for: .normal)
                 }
             }
@@ -32,13 +37,15 @@ class OnboardingViewController: UIViewController {
         OnboardingSlide(image: UIImage(named: "onboard2")! , title: "Enjoy your travel experience", location: "Oro oro Ombo, Indoensia" ),
         OnboardingSlide(image: UIImage(named: "onboard3")! , title: "Let’s make your dream travel", location: "Kelingking Beach, Indoensia" )]
     
+    //MARK: - Lifecycle
     override func viewDidLoad() {
         super.viewDidLoad()
-       
+    
         // Do any additional setup after loading the view.
-        
+        currentPage = pageControl.currentPage
     }
     
+    //MARK: - Actions
     @IBAction func nextSlideAction(_ sender: BaseFilledButton) {
         
         if pageControl.currentPage == slides.count - 1 {
@@ -46,12 +53,10 @@ class OnboardingViewController: UIViewController {
                 navigationController?.pushViewController(signUp, animated: true)
             }
         }
-        
-        pageControl.currentPage = pageControl.currentPage + 1
         currentPage += 1
+        pageControl.currentPage = pageControl.currentPage + 1
         let index = IndexPath(item: pageControl.currentPage, section: 0)
         collectionView.scrollToItem(at: index, at: .centeredHorizontally, animated: true)
-    //    changeButton()
         
     }
 }
@@ -69,20 +74,7 @@ extension OnboardingViewController: UICollectionViewDelegate, UICollectionViewDa
         cell.setup(slides[indexPath.row])
         return cell
     }
-    
-    func changeButton() {
-        if pageControl.currentPage == slides.count - 1  {
-            onboardButton.setTitle("Sign up", for: .normal)
-        //    onboardButton.titleLabel = "Sign Up"
-            onboardButton.setImage(nil, for: .normal)
-                //     onboardButton.setBackgroundImage(nil, for: .normal)
-            onboardButton.titleLabel?.font = R.font.ralewayMedium(size: 12)
-        }
-        else {
-            onboardButton.setTitle("", for: .normal)
-            onboardButton.setImage(UIImage(named: "Next"), for: .normal)
-        }
-    }
+
 }
 
 //MARK: - CollectionView DelegateFlowLayout
@@ -95,6 +87,5 @@ extension OnboardingViewController: UICollectionViewDelegateFlowLayout {
     func scrollViewDidEndDecelerating(_ scrollView: UIScrollView) {
         currentPage = Int(scrollView.contentOffset.x / scrollView.frame.width)
         pageControl.currentPage = currentPage
-     //   changeButton()
     }
 }

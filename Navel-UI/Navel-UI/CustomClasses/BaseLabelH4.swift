@@ -15,6 +15,7 @@ class BaseLabelH4: UILabel {
         setup()
     }
     
+    //MARK: - Variables
     required init?(coder: NSCoder) {
         super.init(coder: coder)
         setup()
@@ -24,34 +25,31 @@ class BaseLabelH4: UILabel {
     
     
     //MARK: - Functions
-    
     private func setup() {
         self.textColor = R.color.gold()
-        //UIColor(red: 0.696, green: 0.651, blue: 0.6, alpha: 1)
         self.font = R.font.ralewayRegular(size: 13)
-    self.addImage()
     }
-    
-    func addImage() {
+   
+}
+
+//MARK: - Extension
+extension BaseLabelH4 {
+    func addImage(_ text: String) {
         let imageAttachment = NSTextAttachment()
         imageAttachment.image = UIImage(named: Constants.locationImage)
-        
-//        guard let width = imageAttachment.image?.size.width, let height = imageAttachment.image?.size.height else {
-//            return
-//        }
-//        imageAttachment.bounds = CGRect(x: 0, y: 0, width: width, height: height)
+                guard let width = imageAttachment.image?.size.width, let height = imageAttachment.image?.size.height else {
+                    return
+                }
+
+        imageAttachment.bounds = CGRect(x: 0, y: 0, width: width, height: height)
         let attachmentString = NSAttributedString(attachment: imageAttachment)
         
-    
         let completeText = NSMutableAttributedString(string: "")
         completeText.append(attachmentString)
-        guard let text = self.text else {
-            return
-        }
         let textAfterIcon = NSAttributedString(string: text)
         completeText.append(textAfterIcon)
-      //  self.textAlignment = .right
         self.attributedText = completeText
+        self.font = R.font.ralewayRegular(size: 12)
     }
 }
 

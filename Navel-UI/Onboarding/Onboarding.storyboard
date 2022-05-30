@@ -38,25 +38,20 @@
                                                     <rect key="frame" x="0.0" y="0.0" width="378" height="725"/>
                                                 </imageView>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Explore the beauty of the world !" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dK4-eb-def" customClass="BaseLabelH1OnBoarding" customModule="Navel_UI" customModuleProvider="target">
-                                                    <rect key="frame" x="35" y="556.66666666666663" width="297" height="20.333333333333371"/>
+                                                    <rect key="frame" x="35" y="577.66666666666663" width="297" height="20.333333333333371"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qgI-U5-lzy" customClass="BaseLabelH4" customModule="Navel_UI" customModuleProvider="target">
-                                                    <rect key="frame" x="43" y="674" width="42" height="21"/>
-                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                                    <nil key="textColor"/>
-                                                    <nil key="highlightedColor"/>
-                                                </label>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="ABC" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RIg-7y-N6w" customClass="BaseLabelH4" customModule="Navel_UI" customModuleProvider="target">
-                                                    <rect key="frame" x="172.33333333333334" y="352.33333333333331" width="33.666666666666657" height="20.333333333333314"/>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qgI-U5-lzy" customClass="BaseLabelH4" customModule="Navel_UI" customModuleProvider="target">
+                                                    <rect key="frame" x="43" y="695" width="0.0" height="0.0"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                             </subviews>
                                             <constraints>
+                                                <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="qgI-U5-lzy" secondAttribute="trailing" constant="200" id="9Iv-Xm-aWp"/>
                                                 <constraint firstItem="qgI-U5-lzy" firstAttribute="top" secondItem="dK4-eb-def" secondAttribute="bottom" constant="97" id="Clb-f5-0gV"/>
                                                 <constraint firstAttribute="trailing" secondItem="dK4-eb-def" secondAttribute="trailing" constant="46" id="HN2-WJ-qLy"/>
                                                 <constraint firstItem="dK4-eb-def" firstAttribute="leading" secondItem="Pqa-yx-Uit" secondAttribute="leading" constant="35" id="Iah-FQ-XMJ"/>
@@ -64,9 +59,7 @@
                                                 <constraint firstAttribute="bottom" secondItem="1NP-an-Jzn" secondAttribute="bottom" id="Z57-0i-O21"/>
                                                 <constraint firstAttribute="trailing" secondItem="1NP-an-Jzn" secondAttribute="trailing" id="cPU-Nq-2Ni"/>
                                                 <constraint firstItem="qgI-U5-lzy" firstAttribute="leading" secondItem="Pqa-yx-Uit" secondAttribute="leading" constant="43" id="cte-DK-PuC"/>
-                                                <constraint firstItem="RIg-7y-N6w" firstAttribute="centerX" secondItem="Pqa-yx-Uit" secondAttribute="centerX" id="gYG-C7-2nA"/>
                                                 <constraint firstItem="1NP-an-Jzn" firstAttribute="leading" secondItem="Pqa-yx-Uit" secondAttribute="leading" id="hK8-y7-XA5"/>
-                                                <constraint firstItem="RIg-7y-N6w" firstAttribute="centerY" secondItem="Pqa-yx-Uit" secondAttribute="centerY" id="myw-MZ-uCs"/>
                                                 <constraint firstAttribute="bottom" secondItem="qgI-U5-lzy" secondAttribute="bottom" constant="30" id="zfg-3n-SNr"/>
                                             </constraints>
                                         </collectionViewCellContentView>
