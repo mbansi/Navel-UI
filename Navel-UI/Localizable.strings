@@ -1,0 +1,18 @@
+/* 
+  Localizable.strings
+  Navel-UI
+
+  Created by Bansi Mamtora on 04/05/22.
+  
+*/
+
+"Forgot?" = "Forgot?";
+"No email" = "No email";
+"No name" = "No name";
+"Please enter your email" = "Please enter your email";
+"Please enter your name" = "Please enter your name";
+"Invalid Email" = "Invalid Email";
+"Please enter a proper email" = "Please enter a proper email";
+"No password" = "No password";
+"Please enter your password" = "Please enter your password";
+"OK" = "OK";
